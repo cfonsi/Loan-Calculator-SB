@@ -1,0 +1,2 @@
+Monthly Interest = (Annual Rate / 12) * Principal
+Interest charged each month = monthly interest * remaining balance
