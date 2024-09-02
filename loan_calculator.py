@@ -27,21 +27,12 @@ def calculate_loan(W,X,Y,Z):
 
         display_balance(month, interest_charged,loan_value)
 
-        
-
 def display_balance(month, interest_charged,loan_value):
     print(f"-- Month {month + 1} --")
     print(f"Interest Charged: £{interest_charged:.2f}")
     print(f"Total Remaining Balance: £{loan_value:.2f}")
     if loan_value==0:
         print(f"Loan Fully Paid in Month {month + 1}")
-            
-# #Example
-# W = 2000
-# X = 6
-# Y = 24
-# Z = 200
-# calculate_loan(2000,6,24,200)
 
 def main():
     # Retrieve inputs from the command line
